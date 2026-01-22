@@ -11,6 +11,7 @@
 :root {
   --font-sans: var(--font-plus-jakarta-sans), ui-sans-serif, system-ui, sans-serif;
   --font-mono: var(--font-jetbrains-mono), ui-monospace, monospace;
+  --font-serif: var(--font-cormorant-garamond), Garamond, "Times New Roman", Times, serif;
 
   /* Custom Brand Colors - Lupine Pedal Theme */
   --color-brand-50: oklch(0.97 0.01 280);
@@ -93,7 +94,7 @@
   --popover-foreground: var(--color-surface-950);
 
   /* Radius */
-  --radius: 0.625rem;
+  --radius: 1.0rem;
 
   /* Sidebar */
   --sidebar: var(--color-surface-100);
