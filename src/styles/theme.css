@@ -1,0 +1,145 @@
+/*
+ * Lupine Pedal Brand Theme
+ * CSS variables for @lupine/pedal-ui
+ *
+ * Usage: Import this file in your app's globals.css or layout
+ * @import "@lupine/pedal-ui/theme.css";
+ */
+
+:root {
+  --font-sans: var(--font-plus-jakarta-sans), ui-sans-serif, system-ui, sans-serif;
+  --font-mono: var(--font-jetbrains-mono), ui-monospace, monospace;
+  --font-serif: var(--font-cormorant-garamond), Garamond, "Times New Roman", Times, serif;
+
+  /* Custom Brand Colors - Lupine Pedal Theme */
+  --color-brand-50: oklch(0.97 0.01 280);
+  --color-brand-100: oklch(0.94 0.02 280);
+  --color-brand-200: oklch(0.88 0.05 280);
+  --color-brand-300: oklch(0.8 0.09 280);
+  --color-brand-400: oklch(0.68 0.16 280);
+  --color-brand-500: oklch(0.58 0.2 280);
+  --color-brand-600: oklch(0.5 0.2 280);
+  --color-brand-700: oklch(0.42 0.17 280);
+  --color-brand-800: oklch(0.34 0.13 280);
+  --color-brand-900: oklch(0.27 0.09 280);
+  --color-brand-950: oklch(0.18 0.06 280);
+
+  /* Accent Colors - Coral Makeup */
+  --color-accent-50: oklch(0.98 0.01 40);
+  --color-accent-100: oklch(0.96 0.03 40);
+  --color-accent-200: oklch(0.92 0.08 38);
+  --color-accent-300: oklch(0.85 0.16 36);
+  --color-accent-400: oklch(0.75 0.28 27);
+  --color-accent-500: oklch(0.67 0.48 18);
+  --color-accent-600: oklch(0.6 0.44 16);
+  --color-accent-700: oklch(0.52 0.38 15);
+  --color-accent-800: oklch(0.44 0.28 14);
+  --color-accent-900: oklch(0.36 0.18 13);
+  --color-accent-950: oklch(0.26 0.1 12);
+
+  /* Accent Pastel Colors - Custom coral/pink for dark mode */
+  --color-accent-pastel-50: oklch(0.96 0.08 21);
+  --color-accent-pastel-100: oklch(0.92 0.15 21);
+  --color-accent-pastel-200: oklch(0.88 0.24 21);
+  --color-accent-pastel-300: oklch(0.84 0.35 21);
+  --color-accent-pastel-400: oklch(0.76 0.48 21);
+  --color-accent-pastel-500: oklch(0.72 0.44 21);
+  --color-accent-pastel-600: oklch(0.68 0.52 21);
+  --color-accent-pastel-700: oklch(0.68 0.63 21);
+  --color-accent-pastel-800: oklch(0.58 0.52 21);
+  --color-accent-pastel-900: oklch(0.48 0.42 21);
+  --color-accent-pastel-950: oklch(0.38 0.32 21);
+
+  /* Surface Colors - Subtle warm grays */
+  --color-surface-50: oklch(0.985 0.002 60);
+  --color-surface-100: oklch(0.97 0.004 60);
+  --color-surface-200: oklch(0.94 0.006 60);
+  --color-surface-300: oklch(0.9 0.008 60);
+  --color-surface-400: oklch(0.75 0.012 60);
+  --color-surface-500: oklch(0.6 0.014 60);
+  --color-surface-600: oklch(0.48 0.012 60);
+  --color-surface-700: oklch(0.38 0.01 60);
+  --color-surface-800: oklch(0.28 0.008 60);
+  --color-surface-900: oklch(0.2 0.006 60);
+  --color-surface-950: oklch(0.12 0.004 60);
+
+  /* Chart Colors */
+  --chart-1: var(--color-brand-500);
+  --chart-2: var(--color-accent-500);
+  --chart-3: oklch(0.7 0.15 160);
+  --chart-4: oklch(0.65 0.15 280);
+  --chart-5: oklch(0.72 0.16 80);
+
+  /* Application Colors - Light Mode */
+  --background: var(--color-surface-50);
+  --foreground: var(--color-surface-950);
+  --card: var(--color-surface-50);
+  --card-foreground: var(--color-surface-950);
+  --primary: var(--color-brand-600);
+  --primary-foreground: var(--color-surface-50);
+  --secondary: var(--color-surface-200);
+  --secondary-foreground: var(--color-surface-900);
+  --muted: var(--color-surface-200);
+  --muted-foreground: var(--color-surface-600);
+  --accent: var(--color-accent-400);
+  --accent-foreground: var(--color-surface-50);
+  --destructive: var(--color-accent-500);
+  --destructive-foreground: var(--color-surface-50);
+  --border: var(--color-surface-300);
+  --input: var(--color-surface-300);
+  --ring: var(--color-brand-500);
+  --popover: var(--color-surface-50);
+  --popover-foreground: var(--color-surface-950);
+
+  /* Radius */
+  --radius: 1.0rem;
+
+  /* Sidebar */
+  --sidebar: var(--color-surface-100);
+  --sidebar-foreground: var(--color-surface-900);
+  --sidebar-primary: var(--color-brand-600);
+  --sidebar-primary-foreground: var(--color-surface-50);
+  --sidebar-accent: var(--color-accent-500);
+  --sidebar-accent-foreground: var(--color-surface-50);
+  --sidebar-border: var(--color-surface-300);
+  --sidebar-ring: var(--color-brand-500);
+}
+
+.dark {
+  --background: var(--color-surface-950);
+  --foreground: var(--color-surface-50);
+  --card: var(--color-surface-900);
+  --card-foreground: var(--color-surface-50);
+  --primary: var(--color-brand-500);
+  --primary-foreground: var(--color-surface-50);
+  --secondary: var(--color-surface-800);
+  --secondary-foreground: var(--color-surface-100);
+  --muted: var(--color-surface-800);
+  --muted-foreground: var(--color-surface-400);
+  --accent: var(--color-accent-pastel-500);
+  --accent-foreground: var(--color-surface-50);
+  --destructive: var(--color-accent-pastel-600);
+  --destructive-foreground: var(--color-surface-50);
+  --border: var(--color-surface-700);
+  --input: var(--color-surface-800);
+  --ring: var(--color-brand-400);
+  --popover: var(--color-surface-900);
+  --popover-foreground: var(--color-surface-50);
+
+  /* Chart colors - adjusted for dark mode visibility */
+  --chart-1: var(--color-brand-400);
+  --chart-2: var(--color-accent-400);
+  --chart-3: oklch(0.75 0.15 160);
+  --chart-4: oklch(0.7 0.15 280);
+  --chart-5: oklch(0.77 0.16 80);
+
+  /* Sidebar */
+  --sidebar: var(--color-surface-900);
+  --sidebar-foreground: var(--color-surface-100);
+  --sidebar-primary: var(--color-brand-500);
+  --sidebar-primary-foreground: var(--color-surface-50);
+  --sidebar-accent: var(--color-accent-500);
+  --sidebar-accent-foreground: var(--color-surface-50);
+  --sidebar-border: var(--color-surface-700);
+  --sidebar-ring: var(--color-brand-400);
+}
