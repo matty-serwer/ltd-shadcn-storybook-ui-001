@@ -1,5 +1,5 @@
 import type { Meta, StoryObj } from "@storybook/nextjs-vite";
-import { AlertCircle, CheckCircle2, Info, Terminal } from "lucide-react";
+import { AlertCircle, CheckCircle2, Info as InfoIcon, Terminal } from "lucide-react";
 
 import { Alert, AlertDescription, AlertTitle } from "@/components/ui/alert";
 
@@ -45,7 +45,7 @@ export const Destructive: Story = {
 export const Info: Story = {
   render: () => (
     <Alert>
-      <Info className="h-4 w-4" />
+      <InfoIcon className="h-4 w-4" />
       <AlertTitle>Information</AlertTitle>
       <AlertDescription>
         This feature is currently in beta. Some functionality may change.
