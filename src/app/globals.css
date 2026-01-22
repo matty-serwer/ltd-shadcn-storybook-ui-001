@@ -238,6 +238,7 @@
   /* Typography */
   --font-sans: var(--font-sans);
   --font-mono: var(--font-mono);
+  --font-serif: var(--font-serif);
 
   /* Border radius */
   --radius-sm: calc(var(--radius) - 4px);
