@@ -1,0 +1,15 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "blockquote",
+  "title": "Blockquote",
+  "description": "Lupine Tech Design styled blockquote component",
+  "files": [
+    {
+      "path": "src/components/ui/blockquote.tsx",
+      "content": "import * as React from \"react\"\n\nimport { cn } from \"@/lib/utils\"\n\nfunction Blockquote({\n  className,\n  ...props\n}: React.ComponentProps<\"blockquote\">) {\n  return (\n    <blockquote\n      data-slot=\"blockquote\"\n      className={cn(\n        \"border-l-4 border-brand-500 pl-4 font-serif text-lg italic text-muted-foreground\",\n        className\n      )}\n      {...props}\n    />\n  )\n}\n\nfunction BlockquoteCite({\n  className,\n  ...props\n}: React.ComponentProps<\"cite\">) {\n  return (\n    <cite\n      data-slot=\"blockquote-cite\"\n      className={cn(\n        \"mt-2 block text-sm font-sans not-italic text-foreground\",\n        className\n      )}\n      {...props}\n    />\n  )\n}\n\nexport { Blockquote, BlockquoteCite }\n",
+      "type": "registry:component",
+      "target": "src/components/ui/lupine-pedal/blockquote.tsx"
+    }
+  ],
+  "type": "registry:block"
+}

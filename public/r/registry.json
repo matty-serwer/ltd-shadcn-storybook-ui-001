@@ -1,0 +1,280 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry.json",
+  "name": "lupine-pedal-ui",
+  "homepage": "http://localhost:3000",
+  "items": [
+    {
+      "name": "alert-dialog",
+      "type": "registry:block",
+      "title": "Alert Dialog",
+      "description": "Lupine Tech Design styled alert-dialog component",
+      "files": [
+        {
+          "path": "src/components/ui/alert-dialog.tsx",
+          "type": "registry:component",
+          "target": "src/components/ui/lupine-pedal/alert-dialog.tsx"
+        }
+      ]
+    },
+    {
+      "name": "alert",
+      "type": "registry:block",
+      "title": "Alert",
+      "description": "Lupine Tech Design styled alert component",
+      "files": [
+        {
+          "path": "src/components/ui/alert.tsx",
+          "type": "registry:component",
+          "target": "src/components/ui/lupine-pedal/alert.tsx"
+        }
+      ]
+    },
+    {
+      "name": "avatar",
+      "type": "registry:block",
+      "title": "Avatar",
+      "description": "Lupine Tech Design styled avatar component",
+      "files": [
+        {
+          "path": "src/components/ui/avatar.tsx",
+          "type": "registry:component",
+          "target": "src/components/ui/lupine-pedal/avatar.tsx"
+        }
+      ]
+    },
+    {
+      "name": "badge",
+      "type": "registry:block",
+      "title": "Badge",
+      "description": "Lupine Tech Design styled badge component",
+      "files": [
+        {
+          "path": "src/components/ui/badge.tsx",
+          "type": "registry:component",
+          "target": "src/components/ui/lupine-pedal/badge.tsx"
+        }
+      ]
+    },
+    {
+      "name": "blockquote",
+      "type": "registry:block",
+      "title": "Blockquote",
+      "description": "Lupine Tech Design styled blockquote component",
+      "files": [
+        {
+          "path": "src/components/ui/blockquote.tsx",
+          "type": "registry:component",
+          "target": "src/components/ui/lupine-pedal/blockquote.tsx"
+        }
+      ]
+    },
+    {
+      "name": "button",
+      "type": "registry:block",
+      "title": "Button",
+      "description": "Lupine Tech Design styled button component",
+      "files": [
+        {
+          "path": "src/components/ui/button.tsx",
+          "type": "registry:component",
+          "target": "src/components/ui/lupine-pedal/button.tsx"
+        }
+      ]
+    },
+    {
+      "name": "card",
+      "type": "registry:block",
+      "title": "Card",
+      "description": "Lupine Tech Design styled card component",
+      "files": [
+        {
+          "path": "src/components/ui/card.tsx",
+          "type": "registry:component",
+          "target": "src/components/ui/lupine-pedal/card.tsx"
+        }
+      ]
+    },
+    {
+      "name": "checkbox",
+      "type": "registry:block",
+      "title": "Checkbox",
+      "description": "Lupine Tech Design styled checkbox component",
+      "files": [
+        {
+          "path": "src/components/ui/checkbox.tsx",
+          "type": "registry:component",
+          "target": "src/components/ui/lupine-pedal/checkbox.tsx"
+        }
+      ]
+    },
+    {
+      "name": "dialog",
+      "type": "registry:block",
+      "title": "Dialog",
+      "description": "Lupine Tech Design styled dialog component",
+      "files": [
+        {
+          "path": "src/components/ui/dialog.tsx",
+          "type": "registry:component",
+          "target": "src/components/ui/lupine-pedal/dialog.tsx"
+        }
+      ]
+    },
+    {
+      "name": "dropdown-menu",
+      "type": "registry:block",
+      "title": "Dropdown Menu",
+      "description": "Lupine Tech Design styled dropdown-menu component",
+      "files": [
+        {
+          "path": "src/components/ui/dropdown-menu.tsx",
+          "type": "registry:component",
+          "target": "src/components/ui/lupine-pedal/dropdown-menu.tsx"
+        }
+      ]
+    },
+    {
+      "name": "form",
+      "type": "registry:block",
+      "title": "Form",
+      "description": "Lupine Tech Design styled form component",
+      "files": [
+        {
+          "path": "src/components/ui/form.tsx",
+          "type": "registry:component",
+          "target": "src/components/ui/lupine-pedal/form.tsx"
+        }
+      ]
+    },
+    {
+      "name": "input",
+      "type": "registry:block",
+      "title": "Input",
+      "description": "Lupine Tech Design styled input component",
+      "files": [
+        {
+          "path": "src/components/ui/input.tsx",
+          "type": "registry:component",
+          "target": "src/components/ui/lupine-pedal/input.tsx"
+        }
+      ]
+    },
+    {
+      "name": "label",
+      "type": "registry:block",
+      "title": "Label",
+      "description": "Lupine Tech Design styled label component",
+      "files": [
+        {
+          "path": "src/components/ui/label.tsx",
+          "type": "registry:component",
+          "target": "src/components/ui/lupine-pedal/label.tsx"
+        }
+      ]
+    },
+    {
+      "name": "progress",
+      "type": "registry:block",
+      "title": "Progress",
+      "description": "Lupine Tech Design styled progress component",
+      "files": [
+        {
+          "path": "src/components/ui/progress.tsx",
+          "type": "registry:component",
+          "target": "src/components/ui/lupine-pedal/progress.tsx"
+        }
+      ]
+    },
+    {
+      "name": "select",
+      "type": "registry:block",
+      "title": "Select",
+      "description": "Lupine Tech Design styled select component",
+      "files": [
+        {
+          "path": "src/components/ui/select.tsx",
+          "type": "registry:component",
+          "target": "src/components/ui/lupine-pedal/select.tsx"
+        }
+      ]
+    },
+    {
+      "name": "sheet",
+      "type": "registry:block",
+      "title": "Sheet",
+      "description": "Lupine Tech Design styled sheet component",
+      "files": [
+        {
+          "path": "src/components/ui/sheet.tsx",
+          "type": "registry:component",
+          "target": "src/components/ui/lupine-pedal/sheet.tsx"
+        }
+      ]
+    },
+    {
+      "name": "switch",
+      "type": "registry:block",
+      "title": "Switch",
+      "description": "Lupine Tech Design styled switch component",
+      "files": [
+        {
+          "path": "src/components/ui/switch.tsx",
+          "type": "registry:component",
+          "target": "src/components/ui/lupine-pedal/switch.tsx"
+        }
+      ]
+    },
+    {
+      "name": "table",
+      "type": "registry:block",
+      "title": "Table",
+      "description": "Lupine Tech Design styled table component",
+      "files": [
+        {
+          "path": "src/components/ui/table.tsx",
+          "type": "registry:component",
+          "target": "src/components/ui/lupine-pedal/table.tsx"
+        }
+      ]
+    },
+    {
+      "name": "tabs",
+      "type": "registry:block",
+      "title": "Tabs",
+      "description": "Lupine Tech Design styled tabs component",
+      "files": [
+        {
+          "path": "src/components/ui/tabs.tsx",
+          "type": "registry:component",
+          "target": "src/components/ui/lupine-pedal/tabs.tsx"
+        }
+      ]
+    },
+    {
+      "name": "textarea",
+      "type": "registry:block",
+      "title": "Textarea",
+      "description": "Lupine Tech Design styled textarea component",
+      "files": [
+        {
+          "path": "src/components/ui/textarea.tsx",
+          "type": "registry:component",
+          "target": "src/components/ui/lupine-pedal/textarea.tsx"
+        }
+      ]
+    },
+    {
+      "name": "tooltip",
+      "type": "registry:block",
+      "title": "Tooltip",
+      "description": "Lupine Tech Design styled tooltip component",
+      "files": [
+        {
+          "path": "src/components/ui/tooltip.tsx",
+          "type": "registry:component",
+          "target": "src/components/ui/lupine-pedal/tooltip.tsx"
+        }
+      ]
+    }
+  ]
+}

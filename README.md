@@ -1197,3 +1197,54 @@ MIT License - see [LICENSE](LICENSE) for details.
 ---
 
 Built with [shadcn/ui](https://ui.shadcn.com/) and [Radix UI](https://www.radix-ui.com/)
+
+# Lupine Pedal UI Component Registry
+
+This registry provides a collection of beautifully designed, accessible UI components styled for Lupine Tech Design. Components are distributed via a custom shadcn/ui registry, allowing for direct installation while maintaining full control over the source code.
+
+## Getting Started
+
+- **Initialize shadcn**: Ensure your project has shadcn initialized by running `npx shadcn@latest init`.
+- **Registry Requirement**: The local registry server must be running at `http://localhost:3000` during the installation process [websites/ui_shadcn].
+- **Namespace Configuration**: To simplify commands, add the following to your `components.json` file [websites/ui_shadcn]:
+  - `"registries": { "lupine": "http://localhost:3000/r/{name}.json" }`
+
+## Installation Commands
+
+### Layout and Surface
+- **Card**: `npx shadcn add lupine/card` (or `npx shadcn@latest add http://localhost:3000/r/card.json`)
+- **Table**: `npx shadcn add lupine/table` (or `npx shadcn@latest add http://localhost:3000/r/table.json`)
+- **Tabs**: `npx shadcn add lupine/tabs` (or `npx shadcn@latest add http://localhost:3000/r/tabs.json`)
+- **Sheet**: `npx shadcn add lupine/sheet` (or `npx shadcn@latest add http://localhost:3000/r/sheet.json`)
+
+### Forms and Inputs
+- **Button**: `npx shadcn add lupine/button` (or `npx shadcn@latest add http://localhost:3000/r/button.json`)
+- **Input**: `npx shadcn add lupine/input` (or `npx shadcn@latest add http://localhost:3000/r/input.json`)
+- **Form**: `npx shadcn add lupine/form` (or `npx shadcn@latest add http://localhost:3000/r/form.json`)
+- **Select**: `npx shadcn add lupine/select` (or `npx shadcn@latest add http://localhost:3000/r/select.json`)
+- **Checkbox**: `npx shadcn add lupine/checkbox` (or `npx shadcn@latest add http://localhost:3000/r/checkbox.json`)
+- **Switch**: `npx shadcn add lupine/switch` (or `npx shadcn@latest add http://localhost:3000/r/switch.json`)
+- **Textarea**: `npx shadcn add lupine/textarea` (or `npx shadcn@latest add http://localhost:3000/r/textarea.json`)
+
+### Feedback and Overlays
+- **Alert**: `npx shadcn add lupine/alert` (or `npx shadcn@latest add http://localhost:3000/r/alert.json`)
+- **Alert Dialog**: `npx shadcn add lupine/alert-dialog` (or `npx shadcn@latest add http://localhost:3000/r/alert-dialog.json`)
+- **Dialog**: `npx shadcn add lupine/dialog` (or `npx shadcn@latest add http://localhost:3000/r/dialog.json`)
+- **Dropdown Menu**: `npx shadcn add lupine/dropdown-menu` (or `npx shadcn@latest add http://localhost:3000/r/dropdown-menu.json`)
+- **Tooltip**: `npx shadcn add lupine/tooltip` (or `npx shadcn@latest add http://localhost:3000/r/tooltip.json`)
+- **Progress**: `npx shadcn add lupine/progress` (or `npx shadcn@latest add http://localhost:3000/r/progress.json`)
+
+### General UI
+- **Avatar**: `npx shadcn add lupine/avatar` (or `npx shadcn@latest add http://localhost:3000/r/avatar.json`)
+- **Badge**: `npx shadcn add lupine/badge` (or `npx shadcn@latest add http://localhost:3000/r/badge.json`)
+- **Label**: `npx shadcn add lupine/label` (or `npx shadcn@latest add http://localhost:3000/r/label.json`)
+- **Blockquote**: `npx shadcn add lupine/blockquote` (or `npx shadcn@latest add http://localhost:3000/r/blockquote.json`)
+
+## Configuration Details
+
+- **Target Directory**: Components are automatically installed into `src/components/ui/lupine-pedal/` to prevent collisions with base shadcn components [websites/ui_shadcn].
+- **Troubleshooting**: If an "Item not found" error occurs, verify that the registry server is active and that the specific `.json` file exists in the `public/r/` directory [websites/ui_shadcn].
+- **Bulk Installation**: To install multiple components at once, list them sequentially: `npx shadcn add lupine/button lupine/card lupine/input`.
+
+Sources
+
